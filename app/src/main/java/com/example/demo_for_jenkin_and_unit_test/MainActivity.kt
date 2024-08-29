@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d(TAG, "onCreate: TEST log added")
         println("help me log");
+        Log.d(TAG, "onCreate: test")
     }
 }
