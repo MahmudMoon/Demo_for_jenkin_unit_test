@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onCreate: test1")
         Log.e(TAG, "onCreate: Error log test" )
         Log.i(TAG, "onCreate: Info log test")
+        Log.e(TAG, "onCreate: Error 2 test", )
 
     }
 }
