@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onCreate: TEST log added")
         println("help me log");
         Log.d(TAG, "onCreate: test1")
+        Log.e(TAG, "onCreate: Error log test" )
+        Log.i(TAG, "onCreate: Info log test")
 
     }
 }
